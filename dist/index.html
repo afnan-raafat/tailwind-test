@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test tailwind</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <!-- navigation bar -->
+<nav class="container mx-auto p-6">
+<div class="flex items-center justify-between">
+
+   <!-- my logo -->
+    <div>
+        <img src="./images/yummylogo.jpg" alt="my logo" width="150px">
+    </div>
+        <div class="hidden md:flex items-center space-x-6 pt-10 pr-10">
+       <!-- links -->
+        <a href="#home" class="text-lime-600 font-bold text-2xl hover:text-black">Home</a>
+        <a href="#about" class="text-lime-600 font-bold text-2xl hover:text-black">About Us</a>
+        <a href="#pro" class="text-lime-600 font-bold text-2xl hover:text-black"> Products</a>
+        <a href="#feed" class="text-lime-600 font-bold text-2xl hover:text-black">Feedback</a>
+
+        </div>
+    
+        <!-- /////////////////// -->
+          <!-- <button id="mobile-btn" class="md:hidden"> -->
+        <!-- <i class="ri-menu-line"></i> -->
+          <!-- </button> -->
+    <!-- </div> -->
+     <!-- <div class="md:hidden"> -->
+        <!-- <div id="mobile-menu" class="absolute flex hidden flex-col items-center space-y-4 font-bold bg-gray-50 py-8 left-6 right-6 drop-shadow-lg border border-gray-50"> -->
+             <!-- <a href="#home" class="text-lime-600 font-bold text-2xl hover:text-black">Home</a> -->
+ <!-- <a href="#about" class="text-lime-600 font-bold text-2xl hover:text-black">About Us</a> -->
+ <!-- <a href="#pro" class="text-lime-600 font-bold text-2xl hover:text-black"> Products</a> -->
+ <!-- <a href="#feed" class="text-lime-600 font-bold text-2xl hover:text-black">Feedback</a> -->
+        <!-- </div> -->
+     </div>
+</nav>
+
+<!-- section 1 home -->
+ <section id="home">
+    <div class="container mx-auto px-6 space-x-6 flex flex-col-reverse md:flex-row">
+        <div class="md:w-1/2 flex flex-col justify-center space-y-5 text-center md:text-left text-black">
+            <h1 class="font-bold text-3xl md:text-5xl">
+                We Serve Delicious Donuts
+            </h1>
+            <p class="text-2xl" > 
+                At Restaurant afnona, we believe that every day is a good day for donuts.
+                 Nestled in the heart of Mushrif, our donut shop is a haven for donut 
+                 enthusiasts and sweet-tooth seekers alike. 
+                 Our journey began with a simple passion for creating the most delectable
+                  and unique donuts that not only satisfy your cravings but also bring a smile to your face.
+            </p>
+
+
+          <!-- button our products -->
+ <a href="#pro" class="py-2 px-6 rounded-full self-center md:self-start text-white bg-lime-500 text-2xl hover:bg-lime-800">
+    Our products
+
+ </a>
+   </div>
+            <!-- home image  -->
+            <div class="md:w-1/2 ">
+                <img src="./images/undraw_donut_love_kau1.png" alt="home image" >
+
+          
+        </div>
+
+    </div>
+ </section>
+
+<!-- section 2 About us -->
+ <section id="about">
+    <div class="container mx-auto px-6 space-x-6 flex flex-col-reverse md:flex-row">
+        
+            <!-- about image  -->
+            <div class="md:w-1/2 ">
+                <img src="./images/d7.jpg" alt="dount1" width="400" >
+            </div>
+            <div class="md:w-1/2 flex flex-col justify-center space-y-5 text-left md:text-l text-black">
+              <h1 class="font-bold text-3xl md:text-5xl text-lime-600 " >
+                About Us
+            </h1>
+            <p class="text-2xl">
+           Let me explain our story to you,
+          Our journey began with a simple dream: to create the perfect donut.
+          Founded in 2015, Restaurant afnona started as a small bakery with a big vision.
+          Our founders,Alaa Rafaat and Afnan Rafaat, combined their culinary expertise
+          and passion for sweet delights to bring you an exceptional donut experience :)
+         
+            </p>  
+         </div>
+    </div>
+
+ </section>
+<!-- section 3 products -->
+
+   <section id="pro">
+    <!-- //////////// # Row 1  //////////// -->
+    <div class="container mx-auto my-32">
+        <h2 class="font-bold text-3xl text-lime-600 text-center">
+            Our Delicious Products
+        </h2>
+
+          <div class="mt-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5 md:space-y-0">  
+
+                <div class="image ">
+                    <img src="./images/d1.jpg" alt="" class="rounded-full">
+                </div>
+            
+
+                <div class="image ">
+                    <img src="./images/d8.jpg" alt="" class="rounded-full">
+                </div>
+        
+
+                <div class="image ">
+                    <img src="./images/d3.jpg" alt="" class="rounded-full">
+                </div>
+       
+                <div class="image ">
+                     <img src="./images/d4.jpg" alt="" class="rounded-full" >
+                            </div>
+
+              <div class="image ">
+                <img src="./images/d5.jpeg" alt="" class="rounded-full" >
+                     </div>
+        </div>
+
+        </div>
+
+  <!-- //////////// # Row 2  //////////// -->
+
+    <div class="container mx-auto my-32">
+
+          <div class="mt-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5 md:space-y-0">  
+
+                <div class="image ">
+                    <img src="./images/d2.jpg" alt="" class="rounded-full">
+                </div>
+            
+
+                <div class="image ">
+                    <img src="./images/do1.jpg" alt="" class="rounded-full">
+                </div>
+        
+
+                <div class="image ">
+                    <img src="./images/do2.jpg" alt="" class="rounded-full">
+                </div>
+       
+                <div class="image ">
+                     <img src="./images/do3.jpg" alt="" class="rounded-full" >
+                            </div>
+
+              <div class="image ">
+                <img src="./images/do4.jpg" alt="" class="rounded-full" >
+                     </div>
+        </div>
+
+        </div>
+
+  <!-- //////////// # Row 3  //////////// -->
+
+        <div class="container mx-auto my-32">
+      <div class="mt-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5 md:space-y-0">  
+            <div class="image ">
+                <img src="./images/do5.jpg" alt="" class="rounded-full">
+            </div>
+        
+            <div class="image ">
+                <img src="./images/do6.jpg" alt="" class="rounded-full">
+            </div>
+    
+            <div class="image ">
+                <img src="./images/do7.jpg" alt="" class="rounded-full">
+            </div>
+   
+            <div class="image ">
+                 <img src="./images/do8.jpg" alt="" class="rounded-full" >
+                        </div>
+          <div class="image ">
+            <img src="./images/do9.jpg" alt="" class="rounded-full" >
+                 </div>
+    </div>
+    </div>
+    
+   </section>
+   <!-- //////////////////////////////// -->
+ <!--  Section 4 feedback -->
+    <section id="feed" class="">
+        <div class="container mx-auto px-4">
+            <h1 class="font-bold text-center text-lime-600 text-2xl mb-8">Leave your feedback</h1>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <form>
+                    <div class="mb-4">
+                        <label for="name" class="block text-lime-600 text-2xl mb-2">Name</label>
+                        <input type="text" id="name" class="w-full rounded-full p-8 border-4 border-lime-600">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="message" class="block text-lime-600 text-2xl mb-2 text-center">Message</label>
+                        <textarea id="message" class="w-full p-8 border-4 border-lime-600" rows="4"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="bg-lime-600 text-white text-2xl py-2 px-6 rounded-full hover:bg-lime-700 ">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
